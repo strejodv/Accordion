@@ -1,0 +1,57 @@
+/* Style the accordion container */
+.accordion {
+  width: 400px; /* Increased width */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px; /* Increased padding */
+  background-color: #f9f9f9;
+}
+
+/* Style each accordion item */
+.accordion-item {
+  margin-bottom: 20px; /* Increased margin */
+  position: relative;
+}
+
+/* Style the header */
+.accordion-item h2 {
+  font-size: 1.5rem; /* Increased font size */
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px 15px 15px; /* Increased padding */
+  background-color: #eee;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the toggle button, aligned to the right of the header */
+.toggle-content {
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem; /* Increased font size */
+  cursor: pointer;
+  position: absolute;
+  right: 15px; /* Adjusted right position */
+  top: 15px; /* Adjusted top position */
+}
+
+/* Style the paragraph content */
+.content1,
+.content2,
+.content3 {
+  padding: 15px; /* Increased padding */
+  margin: 0;
+  background-color: #fff;
+  border-left: 3px solid #ccc; /* Increased border width */
+}
+
+/* Optional: Adding some hover effects */
+.accordion-item h2:hover {
+  background-color: #ddd;
+}
+
+.toggle-content:hover {
+  color: #007bff;
+}
